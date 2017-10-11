@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Shuttle.Core.Castle.Extensions</id>
+		<version>{semver}</version>
+		<authors>Eben Roux</authors>
+		<owners>Eben Roux</owners>
+		<licenseUrl>https://github.com/shuttle/Shuttle.Core.Castle.Extensions/raw/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/shuttle/Shuttle.Core.Castle.Extensions</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/Shuttle/Shuttle.Core.Castle.Extensions/master/.media/logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description></description>
+		<releaseNotes/>
+		<copyright>Copyright (c) {year}, Eben Roux</copyright>
+		<tags>shuttle castle windsor data ado</tags>
+	  <dependencies>
+	    <dependency id="Shuttle.Core.Infrastructure" version="{Shuttle.Core.Infrastructure-version}" />
+	    <dependency id="Shuttle.Core.Data" version="{Shuttle.Core.Data-version}" />
+	    <dependency id="Castle.Windsor" version="{Castle.Windsor-version}" />
+	  </dependencies>
+	</metadata>
+</package>
