@@ -9,7 +9,7 @@
 		<projectUrl>https://github.com/shuttle/Shuttle.Core.Castle.Extensions</projectUrl>
 		<iconUrl>https://raw.githubusercontent.com/Shuttle/Shuttle.Core.Castle.Extensions/master/.media/logo.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description></description>
+		<description>Extensions for use with Castle WindsorContainer.</description>
 		<releaseNotes/>
 		<copyright>Copyright (c) {year}, Eben Roux</copyright>
 		<tags>shuttle castle windsor data ado</tags>
