@@ -21,6 +21,7 @@ namespace Shuttle.Core.Castle.Extensions
             Guard.AgainstNull(container, "container");
 
             container.Register(assembly, typeof(IDataRowMapper<>));
+            container.Register(Component.For(typeof(IDataRepository<>)).ImplementedBy(typeof(DataRepository<>)));
 
             container.Register(assembly, "Repository");
             container.Register(assembly, "Query");
