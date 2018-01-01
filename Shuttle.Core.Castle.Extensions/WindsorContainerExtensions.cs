@@ -2,8 +2,9 @@
 using System.Reflection;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using Shuttle.Core.Contract;
 using Shuttle.Core.Data;
-using Shuttle.Core.Infrastructure;
+using Component = Castle.MicroKernel.Registration.Component;
 
 namespace Shuttle.Core.Castle.Extensions
 {
